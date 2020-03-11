@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+}
+
+header {
+  position: absolute;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-family: 'Sen', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+}
+
+.marquee {
+  overflow: hidden;
+}
