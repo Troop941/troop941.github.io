@@ -10,16 +10,28 @@ header {
   font-size: 30px;
 }
 
-h1 {
+header h1 {
   color: white;
   font-family: 'Sen', sans-serif;
   font-weight: bold;
   text-align: center;
   font-size: 50px;
+  margin-bottom: 0;
 }
 
-.marquee {
+header h2 {
+  margin-top: 0px;
   color: white;
-  overflow: hidden;
-  background-color: red;
+  font-family: 'Sen', sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 20px;
 }
