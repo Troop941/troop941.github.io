@@ -2,23 +2,15 @@ html, body {
   margin: 0;
 }
 
+
+* {box-sizing: border-box}
+
 header {
   padding: 1vh;
   text-align: center;
   background: #1abc9c;
   color: white;
   font-size: 30px;
-}
-
-
-navbar {
-  background: #1abc9c;
-  width: 100vw;
-  height: 10vh;
-}
-
-navbarItem {
-  float: left;
 }
 
 header h1 {
@@ -40,9 +32,34 @@ header h2 {
   font-size: 30px;
 }
 
-p {
-  font-family: 'Ubuntu', sans-serif;
-  text-align: justify;
-  text-justify: inter-word;
-  font-size: 20px;
+.navbar {
+  width: 100%;
+  background-color: #1abc9c;
+  overflow: auto;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+  font-family: 'Jost', sans-serif;
+}
+
+.navbar a:hover {
+  background-color: #10b292;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
 }
