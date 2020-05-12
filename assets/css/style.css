@@ -10,6 +10,17 @@ header {
   font-size: 30px;
 }
 
+
+navbar {
+  background: #1abc9c;
+  width: 100vw;
+  height: 10vh;
+}
+
+navbarItem {
+  float: left;
+}
+
 header h1 {
   color: white;
   font-family: 'Sen', sans-serif;
