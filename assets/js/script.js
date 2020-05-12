@@ -1,8 +1,10 @@
-$(() => {console.log(jQuery.browser.mobile)
+$(() => {
+  if(jQuery.browser.mobile)
+    document.getElementById('mobiTest').innerText = "You are on Mobile!"
+  else
+    document.getElementById('mobiTest').innerText = "You are not on Mobile!"
   var navbar = $('.navbar')[0]
-  console.log(navbar)
   var sticky = navbar.offsetTop;
-  console.log(sticky)
   window.onscroll = () => {
     if (window.pageYOffset >= sticky)
       navbar.classList.add("sticky")
